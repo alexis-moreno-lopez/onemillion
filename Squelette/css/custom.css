@@ -1,4 +1,29 @@
 /* Vos customisations des classes de Bootstrap */
+#home {
+    background-image: url(/bootstrap-onemillionlines/Squelette/images/hero-image.jpg);
+    background-size: cover;
+
+}
+hr {
+    width: 7%;
+}
+h1{
+   font-family: Arvo;
+}
+h2{
+   font-family: Arvo;
+}
+
+.x{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    
+}
+
+
+
+
 
 
 

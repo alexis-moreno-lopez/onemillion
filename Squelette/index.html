@@ -1,57 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>One Million Lines</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+  <title>One Million Lines</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/custom.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <nav>
-      <!-- Votre code ici -->
-    </nav>
-
-    <div id="home">
-      <!-- Votre code ici -->
-    </div><!-- /#home -->
-
-    <div id="who">
-      <!-- Votre code ici -->
-    </div><!-- /#who -->
-
-    <div id="get-involved">
-      <!-- Votre code ici -->
-    </div><!-- /#get-involved -->
-
-    <footer>
-      <!-- Votre code ici -->
-    </footer>
-
-    <div id="back-to-top">
-      <!-- Votre code ici -->
-    </div><!-- /#back-to-top -->
+  <!-- Bootstrap core CSS -->
 
 
-    <!-- Bootstrap core JavaScript
+  <!-- Custom styles for this template -->
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="bg-dark d-flex justify-content-around">
+    <!-- Votre code ici -->
+    <img src="./images/top-logo.png">
+
+    <div class="">
+      <a href="#" class="text-white text-decoration-none me-4">Who we are</a>
+      <a href="#" class="text-white text-decoration-none">Get involved</a>
+    </div>
+  </nav>
+
+
+  <div id="home" class="d-flex text-white justify-content-center text-center">
+    <!-- Votre code ici -->
+    <div class="jumbotron">
+      <h1 class="display-5 p-4 fw-bold">Our goal is to inspire </p>
+        <p>Tallahassee to write 1,000,000 </p>lines of code_
+      </h1>
+      <p class="fs-4">All over the country people are taking the <strong>HOUR OF CODE</strong> challenge issued by
+        <strong>CODE.org.</strong>
+      </p>
+      <p class="fs-4">Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community
+        is</p>
+      <p class="fs-4">taking the challenge and our goal is to write 1 ,000,000 lines of code_</p>
+
+      <p class="lead">
+        <button class="btn btn-lg video bg-danger text-white" data-video="https://clienti.dk/media/1140/friheden-video.mp4" data-toggle="modal" data-target="#videoModal">Learn more</button>
+
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <video controls>
+            <source src="" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+      </p>
+      <img src="../Squelette/images/code.png" class="pb-4">
+      
+    </div>
+
+
+  </div><!-- /#home -->
+
+  <div id="who" class="">
+    <!-- Votre code ici -->
+    <div class="d-flex p-4 flex-column align-items-center">
+      <img src="../Squelette/images/academy-brand-med.png">
+      <h1 class="fs-4 p-4 text-danger fw-bold">WHO WE ARE</h1>
+      <hr class="border-danger opacity-100 mt-0">
+      <p>Lorem, ipsum <span class="text-danger fw-bold">dolor</span> sit amet consectetur adipisicing elit. Molestias,
+        omnis.</p>
+    </div>
+  </div><!-- /#who -->
+
+  <div id="get-involved">
+    <div class="bg-body-secondary">
+      <div class="d-flex p-4 flex-column align-items-center">
+        <h1 class="text-center text-danger p-3">GET INVOLVED</h1>
+        <hr class="border-danger opacity-100 mt-0">
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-4" >
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+            class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+          </svg>
+          <h2 class="text-danger fw-bold p-4">STUDENTS</h2>
+          <div class="fw-bold">
+            <p>Want to learn how to code?</p>
+            <p>Want to help us get to</p>
+            <p>1,000,000 lines? Click the</p>
+            <p>button below and we'll let you</p>
+            <p>know how to get involved</p>
+            <button type="button" class= "mb-5 text-danger bg-white fw-bold">Start Learning >></button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <h2 class="text-danger p-4 fw-bold">EDUCATORS</h2>
+          <div class="fw-bold">
+            <p>Want to bring this initiative to</p>
+            <p>your school or institution?</p>
+            <p>Awesome! Click the button</p>
+            <p>below and we'll make it happen.</p>
+            <button type="button" class="text-danger bg-white fw-bold">Start Learning >></button>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-4 p-4" >
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cash-coin"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
+            <path
+              d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z" />
+            <path
+              d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z" />
+            <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z" />
+          </svg>
+          <h2 class="text-danger p-4 fw-bold">SPONSORS</h2>
+          <div class="fw-bold">
+            <p>We love all the support we get</p>
+            <p>to help host more events, and</p>
+            <p>empower more lives with the</p>
+            <p>knowledge of coding. Click to</p>
+            <p>get involved</p>
+            <button type="button" class="text-danger bg-white fw-bold">Start Learning >></button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <!-- /#get-involved -->
+  <!--------------------------------------FOOTER--------------------------------------------------->
+  <footer class="bg-danger">
+    <div class="p-5 d-flex ">
+      <img src="/bootstrap-onemillionlines/Squelette/images/one-million-bottom-brand.png" alt="">
+    </div>
+    <a href="#">
+
+      <svg class="x" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+      class="bi bi-caret-up-square-fill" viewBox="0 0 16 16">
+      <path
+      d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5A.5.5 0 0 0 4 11z" />
+    </svg>
+  </a>
+    
+  </footer>
+
+  <div id="back-to-top">
+    <!-- Votre code ici -->
+
+  </div>
+  <!-- /#back-to-top -->
+
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+</body>
+
 </html>

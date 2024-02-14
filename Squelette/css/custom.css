@@ -1,6 +1,6 @@
 /* Vos customisations des classes de Bootstrap */
 #home {
-    background-image: url(/bootstrap-onemillionlines/Squelette/images/hero-image.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-size: cover;
 
 }
